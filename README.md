@@ -6,7 +6,7 @@ In this project we are going to perform a linear Regression analysis that's cove
 ## Business Understanding
 Our client is a real estate agency situated in King County, Washington that helps homewoners buy / or sell homes. They are looking to get a better understanding on what features about a house are the most important when trying to estimate a homes price in that area so as to know how a shift in the features may affect the pricing of the houses.
  
- They also what you to come up with a pricing algorithm to give an estimate of a home's price based on different features to assist buyers and sellers evaluate their homes.
+They also what you to come up with a pricing algorithm to give an estimate of a home's price based on different features to assist buyers and sellers evaluate their homes.
 
 ## Data Understanding
 We have been provided access to data containing information on over 10,000 homes together with their respective features. The data used in the analysis contains information on the King County homes pricing together with the different features that make up the homes. The data is contained in the Data folder where:
@@ -28,10 +28,10 @@ After cleaning the data, I started exploring the data by ploting different distr
 After exploring the data, i used the preprocessed data in creating the models.
 First i started by creating the inferential models, i created two models here:
  1. One was based on the target('price') and the most correlated feature('sqft_living')
- 2. The secong one was based on the target('price') anf the five most correlated features(sqft_living, bathrooms, grade_7, bedrooms, grade_10)
+ 2. The secong one was based on the target('price') and the five most correlated features(sqft_living, bathrooms, grade_7, bedrooms, grade_10)
 The next model i created was the predictive model, i also created two models here:
  1. linear  Regression Model
  2. Polynomial Regression Model
 
 ## Evaluation
-After modeling the data, i did the model evaluation. Here i eveluated the models and gave a brief summary about the model finding and what certains values were communicating about the data. I also made recommendations on the two features that showed the strongest correlation with the price of a home and what it meants. The two features were 'sqft_living' and 'grade's
+After modeling the data, i did the model evaluation. Here i eveluated the models and gave a brief summary about the model finding and what certains values were communicating about the data. I also made recommendations on the two features that showed the strongest correlation with the price of a home and what it meant. The two features were 'sqft_living' and 'grade's
